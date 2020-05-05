@@ -1,0 +1,54 @@
+# 02 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Vacation Calendar activity.
+Learning the syntax for a java enum and how to use it was kind of a challenge for me.
+
+
+2. For the Game of Life assignment, what advantages do you see in using interfaces to define creature behaviors, rather than subclasses?
+One of the advantages that i saw was that classes could sort of pick-and-choose which aspects of functionality they wanted to implement instead
+of inheriting all of the methods from ancestors that they may not need.
+
+
+3. Did you complete the Stretch Challenge for the Game of Life Assignment? If so, briefly describe what you did, and how you structured your code.
+The biggest piece of the stretch goal that I added was a Granny class. As the Granny moves it spawns flowers--which are a subclass of Plant that
+simply overrides the getColor method--and a Granny knows to move perpendicular to a wolf.
+
+
+4. What did you learn from comparing your code to the teacher's solution?
+I learned about the clone method. When I created a new to-the-left point for babies, I created a new point with the new key word. Clone is much easier!
+
+
+5. After completing the assignments this week, what questions do you still have?
+I looked at the docs for some of the graphics stuff but didn't quite get a good grasp of it. Is there a good place to start with understanding some of that better?
+
+
+6. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+I would probably expand upon the "health" system that a lot of the classes implement but didn't mess around with too much. It would be interesting to be able to
+"build" a whole ecosystem.
+
+
+7. A common Java interview question is "describe the difference between an interface and an abstract class". How would you answer that question?
+A class in Java can implement multiple interfaces, but it can inherit from only one abstract class. Inheritance also inherits from all the parent classes of the parent.
+
+
+8. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+https://www.tutorialspoint.com/java/java_interfaces.htm
+I liked this one because it explained interfaces but also showed an example of the code-use of them.
+
+
+
+9. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+https://docs.oracle.com/javase/7/docs/api/java/awt/Graphics.html
+Mostly because they were intimidating and I didn't have a lot of time to deconstruct them.
+
+
+
+10. How many hours did you spend on this class this week?
+
+02 Prepare - 1hr
+02 Teach - 1 hr
+02 Prove 1st Attempt - 3hrs
+02 Prove 2nd Attempt -
+02 Ponder - 30 min
+----------------------------
+Total Hours - 5.5 hours
