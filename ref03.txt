@@ -1,0 +1,63 @@
+# 03 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the JSON parsing activity.
+We struggled a bit with some of the steps that we needed to take in order to send an HTTP request.
+It's a very verbose process, so there were a lot of little pieces that we kept getting wrong.
+
+
+2. For the Prove API assignment, what did you learn about how APIs work?
+I've worked with web APIs quite a bit, so most of my learning was on on the Java front. I did learn it's a
+little weird to send a PATCH request in Java... I was getting errors trying to send a PATCH request and read that you have to do something like:
+
+connection.setRequestProperty("X-HTTP-Method-Override", "PATCH");
+connection.setRequestMethod("POST");
+
+Is this correct?
+
+
+3. Did you complete the Stretch Challenge for the Prove API Assignment? If so, briefly describe which method you used.
+For the stretch challenge, I hard coded the creation of a couple of "TopWeatherWidgets" that get the forecast
+and the maxes for a location. Then I used an customized Comparator class to sort them.
+
+
+4. What did you learn from comparing your code to the teacher's solution?
+The instructor's solution is much "neater" because the code is broken into more classes. It's still weird
+for me to want to create so many classes/files, so I'll have to work on that.
+
+
+5. After completing the assignments this week, what questions do you still have?
+Are there better libraries to use in order to make making HTTP requests easier?
+
+
+6. Aside from the task you completed, what is another use you could see for the API we used?
+I work for a company that develops an app to help farmers plan for planting crops. We could use the forecasts
+to predict weather and adjust future crop actions based on the data.
+
+
+7. A common Java interview question is "Describe what an API is and how it's used". (Sometimes people refer to these types of APIs as "REST APIs") How would you answer that question?
+An API is the way that a client application can interact with an application. A REST API provides that
+interface using data sent via HTTP requests.
+
+
+
+8. Of all of the resources in this week's reading, which was the _most_ helpful to you and why?
+I think most of this week's reading was actually really helpful, since they're all pretty critical
+skills we need and they can be pretty confusing to implement.
+-parsing Gson https://futurestud.io/tutorials/gson-getting-started-with-java-json-serialization-deserialization
+-For sorting https://stackoverflow.com/questions/9941890/sorting-arraylist-of-objects-by-float
+-http requests https://stackoverflow.com/questions/2793150/how-to-use-java-net-urlconnection-to-fire-and-handle-http-requests
+
+
+9. Of all of the resources in this week's reading, which was the _least_ helpful to you and why?
+The least helpful this week was the videos. They're nice to see something in action, but harder to go back an rereference so I didn't really watch them beyond the first time.
+
+
+10. How many hours did you spend on this class this week?
+
+01 Prepare - 1 hour
+01 Teach - 1hour
+01 Prove 1st Attempt - 8 hours
+01 Prove 2nd Attempt -
+01 Ponder - 30 min
+----------------------------
+Total Hours - 10.5 hours
