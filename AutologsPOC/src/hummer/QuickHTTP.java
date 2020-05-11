@@ -6,7 +6,10 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLEncoder;
+import java.util.HashMap;
 import java.util.Scanner;
+import java.util.Set;
 
 public class QuickHTTP {
 
@@ -18,6 +21,23 @@ public class QuickHTTP {
     connection.setRequestProperty("Content-Type", "application/json; utf-8");
 
     return connection;
+  }
+
+  private static String buildQueryString(HashMap<String, String> paramHash) {
+    String params = "?";
+    Set<String> keys = paramHash.keySet();
+    boolean firstKey = true;
+    for (String key : keys) {
+      if(!firstKey) {
+        params = params + "&";
+      }
+
+      String value = URLEncoder.encode(paramHash.get(key));
+      params = params +  URLEncoder.encode(key) + "=" + value;
+      firstKey = false;
+    }
+
+    return params;
   }
 
   private static String readResponse(HttpURLConnection connection) throws IOException {
@@ -43,18 +63,24 @@ public class QuickHTTP {
     }
   }
 
+  public static String get(String url, HashMap<String, String> params){
+    String requestUrl = url + buildQueryString(params);
+    System.out.println(requestUrl);
+
+    return requestUrl;
+  }
+
   public static String post(String url, String data){
     try {
       HttpURLConnection connection = getBaseConnection(url);
       connection.setRequestMethod("POST");
       connection.setDoOutput(true);
-
       writeData(connection, data);
 
       return readResponse(connection);
     }catch(Exception e) {
       System.out.println(e);
-      return "";
+      return "ERROR";
     }
   }
 
@@ -63,13 +89,12 @@ public class QuickHTTP {
       HttpURLConnection connection = getBaseConnection(url);
       connection.setRequestMethod("PUT");
       connection.setDoOutput(true);
-
       writeData(connection, data);
 
       return readResponse(connection);
     }catch(Exception e) {
       System.out.println(e);
-      return "";
+      return "ERROR";
     }
   }
 
@@ -80,7 +105,7 @@ public class QuickHTTP {
 
       return readResponse(connection);
     }catch(Exception e) {
-      return "";
+      return "ERROR";
     }
   }
 }

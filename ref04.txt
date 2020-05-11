@@ -1,0 +1,57 @@
+# 04 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the GitHub activity.
+
+
+
+2. What are the advantages to using a version control system like git?
+I think that managing changes is the best feature of using a VCS like git. Plus, when
+combining it with a remote like Github it make collaboration night and day easier!
+
+
+3. What is the difference between git and GitHub?
+Git is the VCS, but it only works for local projects and source code, however Github is
+an online service that allows users to collaborate using their git.
+
+
+4. What is the purpose of branching in git?
+It allows the ability to make changes to the code without having to worry about
+breaking other pieces of the code. If you are making changes on a non-master branch,
+you can do whatever you want and then just go back to previous state if you need.
+
+
+5. Imagine you're working as a software developer for someone who doesn't have any experience with programming. How would you describe version control and git to your employer?
+Essentially, it's a way to manage and track changes made to the code. This means that we
+can know what changes are introduces, by who, when, and we can use that information to
+track when bugs are introduced or switch back to previous versions.
+
+
+6. After completing the assignments this week, what questions do you still have?
+None.
+
+
+7. A common git-related interview question is "How do you revert a commit that has already been pushed and made public?". How would you answer that question?
+Burn the project to the ground and start over. Well, either that or you could just git reset and force push.
+
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+I am actually pretty familiar with git, but I really liked
+https://learngitbranching.js.org/ since it does a good job with the visualization of
+the processes.
+
+
+
+9. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+I didn't think that https://www.katacoda.com/courses/git was that great. The lessons
+were pretty basic and underwhelming.
+
+
+10. How many hours did you spend on this class this week?
+
+04 Prepare - 1hr
+04 Teach -
+04 Prove - 1hr
+04 Ponder - 20min
+----------------------------
+Total Hours -

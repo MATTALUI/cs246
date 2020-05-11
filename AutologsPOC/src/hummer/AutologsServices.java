@@ -29,6 +29,22 @@ public class AutologsServices {
     return buildVehiclesUrl() + vehicleId + "/";
   }
 
+  private static String buildMISCAPIUrl() {
+    return Config.HOST + "/global/";
+  }
+
+  private static String buildUsersUrl() {
+    return buildMISCAPIUrl() + "users/";
+  }
+
+  private static String buildUserUrl() {
+    return buildMISCAPIUrl() + "user/";
+  }
+
+  private static String buildSessionUrl() {
+    return buildUserUrl() + "session/";
+  }
+
   /////////////////////////////////
   //  AUTOLOG SERVICES
   /////////////////////////////////
@@ -87,5 +103,25 @@ public class AutologsServices {
   public static Vehicle deleteVehicle(int vehicleId) {
     String data = QuickHTTP.delete(buildVehicleUrl(vehicleId));
     return new Gson().fromJson(data, Vehicle.class);
+  }
+
+  /////////////////////////////////
+  //  USER SERVICES
+  /////////////////////////////////
+  public static User whoAmI() {
+    String data = QuickHTTP.get(buildUserUrl());
+    return new Gson().fromJson(data, User.class);
+  }
+
+  public static LoginResponse login(LoginCredentials credentials) {
+    String json = new Gson().toJson(credentials);
+    String data = QuickHTTP.post(buildSessionUrl(), json);
+    return new Gson().fromJson(data, LoginResponse.class);
+  }
+
+  public static LoginResponse signUp(UserCreator newUser) {
+    String json = new Gson().toJson(newUser);
+    String data = QuickHTTP.post(buildUsersUrl(), json);
+    return new Gson().fromJson(data, LoginResponse.class);
   }
 }
