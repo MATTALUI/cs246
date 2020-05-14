@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prove05</string>
+    <string name="enter_cta">Enter your favourite scripture</string>
+    <string name="enter_scripture_text">Display Scripture</string>
+    <string name="book_text">Book</string>
+    <string name="chapter_text">Chapter</string>
+    <string name="verse_text">Verse</string>
+    <string name="save_text">Save Scripture</string>
+    <string name="load_text">Load Scripture</string>
+</resources>

@@ -1,7 +1,8 @@
 # 04 Ponder : Weekly Reflection
 
 1. Describe one challenge your team experienced working on the GitHub activity.
-
+We didn't have any real challenges. We did have some discussion on the fact that other people are working with the remote and why we should always
+pull before we push.
 
 
 2. What are the advantages to using a version control system like git?
@@ -41,7 +42,6 @@ https://learngitbranching.js.org/ since it does a good job with the visualizatio
 the processes.
 
 
-
 9. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
 I didn't think that https://www.katacoda.com/courses/git was that great. The lessons
 were pretty basic and underwhelming.
@@ -50,8 +50,8 @@ were pretty basic and underwhelming.
 10. How many hours did you spend on this class this week?
 
 04 Prepare - 1hr
-04 Teach -
+04 Teach - 1hr
 04 Prove - 1hr
 04 Ponder - 20min
 ----------------------------
-Total Hours -
+Total Hours - 3hr 20min
