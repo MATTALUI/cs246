@@ -9,6 +9,7 @@
 
 
 3. Describe how the onCreate() callback works.
+onCreate is the first callback that gets called in an Activity when it is being created.
 
 
 
