@@ -3,6 +3,7 @@ package com.example.mattalui.prove05;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.TextView;
 
 public class DisplayScripture extends AppCompatActivity {
@@ -15,6 +16,7 @@ public class DisplayScripture extends AppCompatActivity {
         Intent intent = getIntent();
         String scripture = intent.getStringExtra("com.example.mattalui.prove05.SCRIPTURE");
 
+        Log.d("scripture","Received intent with " + scripture);
         displayText = (TextView)findViewById(R.id.scriptureDisplay);
         displayText.setText(scripture);
     }
