@@ -14,30 +14,35 @@ onCreate is the first callback that gets called in an Activity when it is being 
 
 
 4. What's the biggest challenge you've experienced regarding Android development compared to pure Java development?
+The challenge I've had to get over is trying to get a grasp on Android API concepts. Why do Intents
+change activities? What the heck is a UI thread? Stuff like that.
 
 
 
 5. After completing the assignments this week, what questions do you still have?
-
+None.
 
 
 6. A common Android-related interview question is "What's the difference between onPause() and onDestroy() and what kinds of things might you do in those functions?". How would you answer that question?
-
+onPause gets called when the activity is about to lose focus. The application can still onResume after that.
+However, onDestroy is when an application is closed. Boom. It's gone. You'll have to start over at this
+point.
 
 
 7. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
-
+The android docs were the best. They were the only ones that actually explained how anything was done.
 
 
 8. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
-
+I guess that API levels? it's good to know where we're at but I'll not think about it again for a while so
+its value was very little to what we had to accomplish.
 
 
 9. How many hours did you spend on this class this week?
 
-05 Prepare -
+05 Prepare - 2 hours
 05 Teach -
-05 Prove -
-05 Ponder -
+05 Prove - 2 hours
+05 Ponder - 20 minutes
 ----------------------------
 Total Hours -
