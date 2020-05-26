@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prove06</string>
+    <string name="action_settings">Settings</string>
+    <string name="location_prompt">Enter Your Location</string>
+    <string name="temp_cta">Get Current Temperature</string>
+    <string name="forecast_cta">Get Weather Forecast</string>
+</resources>

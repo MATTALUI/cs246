@@ -1,15 +1,21 @@
 # 05 Ponder : Weekly Reflection
 
 1. Describe one challenge your team experienced working on the Android activity.
+The most difficult thing we had to overcome was making sure our applications would run on devices. Some of
+us are using real devices and some of us are using the emulator, which meant we had to figure both out and
+they each have their own puzzles to solve.
 
 
 
 2. What is the difference between an Activity and an Intent?
-
+An activity is the basic piece of an application that displays to a user and that they interact with. An
+intent is the way that those components and activities can send data to eachother and trigger new
+activities.
 
 
 3. Describe how the onCreate() callback works.
-onCreate is the first callback that gets called in an Activity when it is being created.
+onCreate is the first callback that gets called in an Activity when it is being created. It can be used in
+to initialize important data.
 
 
 
@@ -41,8 +47,8 @@ its value was very little to what we had to accomplish.
 9. How many hours did you spend on this class this week?
 
 05 Prepare - 2 hours
-05 Teach -
+05 Teach - 1 hour
 05 Prove - 2 hours
-05 Ponder - 20 minutes
+05 Ponder - 30 minutes
 ----------------------------
-Total Hours -
+Total Hours - 5.5hours
