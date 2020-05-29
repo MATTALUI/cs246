@@ -1,0 +1,50 @@
+# 06 Ponder : Weekly Reflection
+
+1. Describe how multithreading works.
+Multithreading is like having two different programs running concurrently.
+
+
+2. What is the difference between subclassing Thread and implementing Runnable?
+The classic inheritance vs interface issue. Besides being easier to use a Runnable, inheriting from a thread means that it cannot be rerun.
+
+
+3. What was one of the most difficult challenges your team faced working on the multithreading assignment?
+The most difficult challenges were actually with communication and not the project itsself. Zoom was having a hard time streaming while also running android studio and emulators so all of our talking was pretty choppy. Overall it was simple enough since I had done the weekly assignment beforehand.
+
+
+4. After completing the assignments this week, what questions do you still have?
+I want to learn more about actually making application look nice. The prefab components are a little jenky. Got any recommendations for extra learning on that?
+
+
+5. A common Android-related interview question is "If you need to update the GUI from a background thread, how can you accomplish this?". How would you answer that question?
+I would make sure a background thread has a reference to the Context that is being shown. Not only does that allow you to run followups on the uithread, but also gives you access to other context items like SharedPreferences.
+
+
+
+6. How would you explain to a new developer what a software design pattern is?
+Having patterns in your software make is both easier to read and to write. The way that each piece of functionality--like classes, for example--interacts with one another is what makes the program good. Having a good design pattern will make sure those interactions are well-defined.
+
+
+7. Give an example of when you would use the Strategy pattern other than the examples given in the reading.
+You could use the Strategy pattern in order to dynamically dispatch handlers to your events.
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+https://developer.android.com/reference/android/os/AsyncTask.html
+I didn't get a lot from this because it was very in-depth while still not giving a really good understanding of how to properly use it, especially in the context of our assignments.
+
+
+9. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+https://examples.javacodegeeks.com/java-runnable-example/
+Good explanation, good examples.
+
+
+
+10. How many hours did you spend on this class this week?
+
+06 Prepare - 1 hour
+06 Teach - 1 hour
+06 Prove - 8 hours
+06 Ponder - 1 hour
+----------------------------
+Total Hours - 11 hours
