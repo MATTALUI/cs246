@@ -1,0 +1,51 @@
+# 07 Ponder : Weekly Reflection
+
+1. Did you fulfill all aspects of your team agreement this week, or if there was an infraction, did you fulfill the appropriate accountability measure? (If not, please explain.)
+We did. There were a few member not in attendance, but there was some notice given.
+
+
+2. Did you hold your teammates accountable for upholding their commitments this week? (If not, please explain.)
+Yes.
+
+3. Are there any concerns regarding your project or your team that you want the teacher to know about?
+There's nothing pressing right now. I believe we've previously discussed any team issues.
+
+
+4. What is the purpose of a UML class diagram?
+It helps to describe the way the classes and pieces of your code can interact with one another.
+It also helps to explain possible methods and such.
+
+
+5. What are some benefits of the MVC pattern?
+One of the benefits of the MVC pattern is that you can have your data and your "state"
+in a single source of truth and your application can update to reflect the internal data.
+
+
+6. What are some drawbacks to the MVC pattern?
+It can be complex to implement and it seems like there's even a lot of disagreement regarding
+what "actual" MVC is. MVC? MVP? MVVC? Who knows!
+
+
+7. A common design-pattern interview question is "Describe the difference between the MVC pattern and the MVP variant.". How would you answer that question?
+In MVP, the presenter is more loosely coupled which means it can be easier to test.
+
+
+
+8. How would you explain to a new developer why they should go through the trouble of using the MVC pattern?
+It makes it a lot easier to separate your stuff. Since your models, views, and controllers are all separate then you can make changes
+to one without it breaking the others.
+
+
+9. Give an example of when the MVC pattern would be overkill for a project.
+MVC is probably overkill when you're working with a pretty simple application, like one that doesn't have very many views.
+
+
+10. How many hours did you spend on this class this week?
+
+07 Prepare - 1hour
+07 Teach - 1hour
+07 Prove - 3hours
+07 Ponder - 30 minutes
+07 Team Project - 1 hour
+----------------------------
+Total Hours - 6.5 hours
