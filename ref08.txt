@@ -1,0 +1,51 @@
+# 08 Ponder : Weekly Reflection
+
+1. What is the purpose of a unit test?
+To test the functionality of a piece of the code and to prevent regressions in functionality.
+
+
+2. What are the pros and cons of Test Driven Development?
+pro: well defined acceptance criteria
+con: can be a hurdle to hop before actual feature development
+
+
+3. How are assert statements used by JUnit for unit testing?
+They are used to assert a truth. So you can use them to check the value of a function is what you'd expect it to be.
+
+
+4. A common design-pattern interview question is "Describe a situation where you would use the Observer pattern.". How would you answer that question?
+I would use the observer pattern anytime I want a class to respond to changes in the data in the
+observable class. So if you want a view to change according to state you could "subscribe" to is as an observer.
+
+
+5. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+https://developer.android.com/training/testing/unit-testing/local-unit-tests.html
+Because it actually got the tests working.
+
+
+6. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+https://www.codeproject.com/Articles/1474/Events-and-event-handling-in-C because I likely won't use it much.
+
+7. How would you say your team project is proceeding so far?
+So far so good. We have a couple key pieces of functionality put together.
+
+
+8. Did anyone on your team have any violations/infractions of the Team Agreement this week? If so, were the punishments enforced?
+No infractions.
+
+
+9. Are there any concerns regarding your project or your team that you want the teacher to know about?
+None yet.
+
+
+10. How many hours did you spend on this class this week?
+
+
+
+08 Prepare - 2 hours
+08 Teach - 1 hour
+08 Prove - 30 min
+08 Ponder - 30 min
+08 Team Project - 3 hours
+----------------------------
+Total Hours - 7 hours
