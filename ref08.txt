@@ -45,7 +45,7 @@ None yet.
 08 Prepare - 2 hours
 08 Teach - 1 hour
 08 Prove - 30 min
-08 Ponder - 30 min
+08 Ponder - 30 min 
 08 Team Project - 3 hours
 ----------------------------
 Total Hours - 7 hours

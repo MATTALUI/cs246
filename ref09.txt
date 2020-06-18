@@ -1,0 +1,23 @@
+# 09 Ponder : Status Report
+
+1. What features were completed in your project this week?
+Up to this point, we've added an authentication process, and an "index" for both logs and vehicles. Users can also create vehicles.
+
+
+2. What bugs were fixed in your project this week?
+None.
+
+
+3. Did anyone on your team have an infraction this week?
+We haven't heard from Jordan yet, but I'm not sure whether that's an infraction or not yet...
+
+
+4. If someone did have an infraction, was the penalty paid?
+Sure.
+
+
+5. How many hours did you spend on your team project this week?
+5
+
+6. Are there any issues related to your team or project you want to tell your instructor about?
+Nope!
