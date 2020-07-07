@@ -1,0 +1,22 @@
+# 10 Ponder : Status Report
+
+1. What features were completed in your project this week?
+This week, some improved state management was introduced which polished the UI quite a bit. We also finished up some of the basic stat/reporting
+features that are part of our MVP features. We're also working to finish up the ability to create logs for a vehicle.
+
+2. What bugs were fixed in your project this week?
+No official bugs were worked on this week. At this point our main focus is feature work so there are not many bugs that are a priority yet.
+
+3. Did anyone on your team have an infraction this week?
+This week Lief was unable to attend the team meeting as well as complete some of the work commitments for the week.
+
+4. If someone did have an infraction, was the penalty paid?
+At this point, no. We're looking to have another meeting sometime between the end of this week and the next planned
+meeting where this can be addressed.
+
+5. How many hours did you spend on your team project this week?
+8 hours
+
+6. Are there any issues related to your team or project you want to tell your instructor about?
+Overall the application is moving forward alright. However, as we get closer and closer to the end of the class,
+I've noticed that general team communication is becoming more and more difficult...

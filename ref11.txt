@@ -1,0 +1,26 @@
+# 11 Ponder : Status Report
+
+1. What features were completed in your project this week?
+This week we focused mostly on some minor improvements (things like more polished adapters) as well as
+creating logs. The key pieces!
+
+
+2. What bugs were fixed in your project this week?
+We didn't quite get our bugs fixed yet. I'm looking into why some event handlers aren't firing, even
+though they are all set up the same and the editor.
+
+
+3. Did anyone on your team have an infraction this week?
+Well, we haven't heard from 50% of our group in a while, so I've kind of moved on from the whole
+"infraction" system...
+
+
+4. If someone did have an infraction, was the penalty paid?
+No.
+
+
+5. How many hours did you spend on your team project this week?
+3
+
+6. Are there any issues related to your team or project you want to tell your instructor about?
+Nope!
