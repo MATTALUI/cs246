@@ -1,0 +1,26 @@
+# 12 Ponder : Status Report
+
+1. What features were completed in your project this week?
+This week, we finished the ability to add logs! That was the last piece of that was needed for our bare minimum MVP. We also added the ability to edit and delete logs, as well as to see a list of logs for a
+specific vehicle.
+
+
+2. What bugs were fixed in your project this week?
+I corrected a small bug where a vehicle wouldn't show up in the UI after creating it.
+
+
+3. Did anyone on your team have an infraction this week?
+Not yet. Lief wasn't in our typical weekly meeting, but he let us know that ahead of time, so we set up
+another meeting with him Saturday morning. We'll let you know how that goes.
+
+
+4. If someone did have an infraction, was the penalty paid?
+N/A
+
+
+5. How many hours did you spend on your team project this week?
+10
+
+6. Are there any issues related to your team or project you want to tell your instructor about?
+Not really. I think we're in a good place and I feel comfortable with what the app has become even
+through some of the trials this team has faced.
