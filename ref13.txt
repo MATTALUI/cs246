@@ -1,0 +1,25 @@
+# 13 Ponder : Status Report
+
+1. What features were completed in your project this week?
+We did not get any features done yet this week (at least not at the time of this submission). Mostly we focused on some bug fixes.
+
+
+2. What bugs were fixed in your project this week?
+We mostly fixed bugs this week. We had some bugs related to logging out and signing up. When a user logged out it didn't clear their data so someone else could sign in and make
+logs using the other person's vehicles oh no! Fixing a lot of these bugs also improved some of our error handling and error feedback in the UI.
+
+
+3. Did anyone on your team have an infraction this week?
+Lief communicated with us this week that he would not be at our normal meeting time. He did say that he would have his issues done before Thursday or Friday though. At the time
+of this submission it seems like it's not likely that they will cross the finish line. There's still technically time, but last-minute submissions on a final week is not faith-instilling...
+
+
+4. If someone did have an infraction, was the penalty paid?
+Nah.
+
+
+5. How many hours did you spend on your team project this week?
+4
+
+6. Are there any issues related to your team or project you want to tell your instructor about?
+I believe you are aware.
